@@ -1,0 +1,11 @@
+﻿gh.exe : 
+At line:6 char:1
++ & "C:\Program Files\GitHub CLI\gh.exe" auth login 2>&1 | Tee-Object - ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+! First copy your one-time code: 289F-7B5E
+Open this URL to continue in your web browser: https://github.com/login/device
+✓ Authentication complete.
+✓ Logged in as mjkwon-cloud
