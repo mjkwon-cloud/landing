@@ -1,8 +1,86 @@
-# Landing Page
+# ☕ The Coffee House - 카페 랜딩페이지
 
-This is a new landing page project for the AI Agent class.
+프리미엄 커피 전문점 "The Coffee House"의 공식 랜딩페이지입니다.
 
-## Features
-- Modern design
-- Responsive layout
-- Interactive components
+## 📌 프로젝트 소개
+
+The Coffee House는 최고의 원두를 직접 선별하여 신선한 커피를 제공하는 프리미엄 커피 전문점입니다. 이 랜딩페이지는 카페의 브랜드를 소개하고 고객들에게 메뉴와 연락처 정보를 제공합니다.
+
+## ✨ 주요 기능
+
+- **반응형 디자인**: 모바일, 태블릿, 데스크톱 모든 기기에 최적화
+- **네비게이션**: 부드러운 스크롤 네비게이션
+- **메뉴 소개**: 6가지 인기 메뉴 소개
+- **연락처 정보**: 위치, 전화번호, 운영시간 제공
+- **현대적 UI/UX**: 따뜻한 커피 톤의 색상 팔레트
+
+## 🎨 디자인 특징
+
+- **색상 팔레트**: 
+  - 주색상: #2c1810 (진한 갈색)
+  - 강조색: #d4a574 (밝은 갈색)
+  - 배경색: #f9f7f4 (크림색)
+
+- **섹션 구성**:
+  1. **Hero**: 임팩트 있는 인트로 섹션
+  2. **About**: 카페 소개
+  3. **Menu**: 메뉴 그리드 표시
+  4. **Contact**: 연락처 정보
+  5. **Footer**: 저작권 정보
+
+## 📁 파일 구조
+
+```
+landing/
+├── index.html          # 메인 랜딩페이지
+├── README.md           # 이 파일
+└── .gitignore         # Git 무시 파일
+```
+
+## 🚀 사용 방법
+
+1. 저장소를 클론합니다:
+```bash
+git clone https://github.com/mjkwon-cloud/landing.git
+```
+
+2. 브라우저에서 `index.html`을 열어 랜딩페이지를 확인합니다.
+
+## 💻 기술 스택
+
+- **HTML5**: 시맨틱 마크업
+- **CSS3**: 반응형 디자인, Flexbox, Grid
+- **No Framework**: 순수 HTML/CSS 구현
+
+## 📱 반응형 대응
+
+- Desktop: 1200px 이상
+- Tablet: 768px - 1199px
+- Mobile: 767px 이하
+
+## 🔧 커스터마이제이션
+
+다음 부분을 수정하여 실제 카페 정보로 업데이트할 수 있습니다:
+
+- **제목 및 소개**: `<h1>`, `<p>` 태그
+- **메뉴 항목**: `.menu-item` 섹션
+- **연락처 정보**: `.contact-info` 섹션
+- **색상**: CSS 색상 값
+
+## 📄 라이선스
+
+MIT License
+
+## 👨‍💻 개발자
+
+AI Agent - 2024
+
+## 📞 연락처
+
+- 📧 Email: info@coffeehouse.com
+- 📍 Location: 서울시 강남구 테헤란로 123
+- 📱 Phone: 02-1234-5678
+
+---
+
+마지막 업데이트: 2024년 8월
